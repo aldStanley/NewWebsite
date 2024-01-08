@@ -15,8 +15,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <Contact />
-      <Footer />
+      <Footer/>
     </div>
   );
 }

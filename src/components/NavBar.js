@@ -52,7 +52,7 @@ export const NavBar = () => {
 
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>Resume Here</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
