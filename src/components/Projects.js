@@ -15,6 +15,7 @@ export const Projects = () => {
       title: "Mastermind",
       url:"https://github.com/aldStanley/Mastermind-game/tree/main",
       description: "Text version of Mastermind implemented in Java. Click the card to see more!",
+      content: "Content",
       imgUrl: mastermind,
     },
     {
@@ -43,6 +44,7 @@ export const Projects = () => {
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Professional Experience</Nav.Link>
+                      
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Projects</Nav.Link>
