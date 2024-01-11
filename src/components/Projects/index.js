@@ -12,7 +12,6 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -21,23 +20,24 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+          {toggle === 'Client-Server app' ?
+            <ToggleButton active value="Client-Server app" onClick={() => setToggle('Client-Server app')}>CLIENT-SERVER</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="Client-Server app" onClick={() => setToggle('Client-Server app')}>CLIENT-SERVER</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          {toggle === 'block chain' ?
+            <ToggleButton active value="block chain" onClick={() => setToggle('block chain')}>BLOCK CHAIN</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="block chain" onClick={() => setToggle('block chain')}>BLOCK CHAIN</ToggleButton>
           }
-          <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+          <Divider/>
+          {toggle === 'frontend' ?
+            <ToggleButton active value="frontend" onClick={() => setToggle('frontend')}>FRONTEND</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="frontend" onClick={() => setToggle('frontend')}>FRONTEND</ToggleButton>
           }
+          
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

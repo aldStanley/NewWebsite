@@ -29,6 +29,7 @@ const Card = styled.div`
     gap: 14px;
     transition: all 0.5s ease-in-out;
     &:hover {
+        
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
         filter: brightness(1.1);
@@ -65,6 +66,7 @@ const Tag = styled.span`
 `
 
 const Details = styled.div`
+    white-space: pre-line;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -96,6 +98,7 @@ const Date = styled.div`
 
 
 const Description = styled.div`
+    white-space: pre-line;
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 99};
     overflow: hidden;
@@ -105,6 +108,7 @@ const Description = styled.div`
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    
 `
 
 const Members = styled.div`
