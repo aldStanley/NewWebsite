@@ -9,7 +9,7 @@ export const Bio = {
       "I am a motivated individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/aldStanley",
     resume:
-      "https://drive.google.com/file/d/1YBdnMQyCsjE73AR99MQZ1-DoaKEemvWo/view?usp=share_link",
+      "https://drive.google.com/file/d/1iraD9_mkLmVhA_ST5LdLnMYVOSXCLY51/view?usp=share_link",
     linkedin: "https://www.linkedin.com/in/stanleyychung/",
     insta: "https://www.instagram.com/stanleyyc0921/"
   };
