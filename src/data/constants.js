@@ -9,7 +9,7 @@ export const Bio = {
       "I am a motivated individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/aldStanley",
     resume:
-      "https://drive.google.com/file/d/1iraD9_mkLmVhA_ST5LdLnMYVOSXCLY51/view?usp=share_link",
+      "https://drive.google.com/file/d/1bHmMtNpxKaFq3QjVphJmz2fGxJG6O2W8/view?usp=share_link",
     linkedin: "https://www.linkedin.com/in/stanleyychung/",
     insta: "https://www.instagram.com/stanleyyc0921/"
   };
@@ -159,20 +159,16 @@ export const Bio = {
   ];
   
   export const projects = [
+ 
     {
       id: 0,
-      title: "Mastermind Game",
-      date: "Oct 2023 - Jan 2024",
-      description:
-        "This is a text version of the code-guessing game Mastermind. It Leverages Java networking APIs to establish a client-server architecture, utilizing multithreading to manage concurrency. I Designed a Message class to facilitate versatile communication protocol(such as Message containing not only String), enhance scalability, and prevent input anomaly errors. There is also robust error-handling mechanisms to efficiently and gracefully manage scenarios such as player disconnection",      
-        image:"https://cdn11.bigcommerce.com/s-pqt7n8/images/stencil/1280x1280/products/6668/38385/mastermindgame__30108__68647.1683559179.370.500__85910.1696881251.jpg?c=2",
-      tags: [
-        "Java",
-        "Java networking APIs",
-        "Object Oriented Programming",
-      ],
-      category: "Client-Server app",
-      github: "https://github.com/aldStanley/Mastermind-game",
+      title: "E-commerce Web App",
+      date: "Oct 2023 -Jan 2024 ",
+      description: "•	Developed intuitive UI that allows user to browse products by category or by searching using Next.js and tailwind CSS •	Integrated Yarn library to store cart items locally, reducing database load to optimize database performance •	Integrated Stripe API to implement robust and secure checkout and payment transactions",
+      image: "../images/EcommercePic.jpeg",
+      tags:[ "Next.js", "MongoDB", "Stripe API", "tailwind CSS", "Javascript", "HTML"],
+      category: "web app",
+      github: "https://github.com/aldStanley/Ecommerce/tree/main"
     },
     {
       id: 1,
@@ -191,13 +187,22 @@ export const Bio = {
       category: "frontend",
       github: "https://github.com/aldStanley/NewWebsite",
     },
+    {
+      id: 2,
+      title: "Mastermind Game",
+      date: "Oct 2023 - Jan 2024",
+      description:
+        "This is a text version of the code-guessing game Mastermind. It Leverages Java networking APIs to establish a client-server architecture, utilizing multithreading to manage concurrency. I Designed a Message class to facilitate versatile communication protocol(such as Message containing not only String), enhance scalability, and prevent input anomaly errors. There is also robust error-handling mechanisms to efficiently and gracefully manage scenarios such as player disconnection",      
+        image:"https://cdn11.bigcommerce.com/s-pqt7n8/images/stencil/1280x1280/products/6668/38385/mastermindgame__30108__68647.1683559179.370.500__85910.1696881251.jpg?c=2",
+      tags: [
+        "Java",
+        "Java networking APIs",
+        "Object Oriented Programming",
+      ],
+      category: "Client-Server app",
+      github: "https://github.com/aldStanley/Mastermind-game",
+    },
+    
     
   ];
   
-  export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
-  ];

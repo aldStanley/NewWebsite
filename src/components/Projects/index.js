@@ -26,10 +26,10 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="Client-Server app" onClick={() => setToggle('Client-Server app')}>CLIENT-SERVER</ToggleButton>
           }
           <Divider />
-          {toggle === 'block chain' ?
-            <ToggleButton active value="block chain" onClick={() => setToggle('block chain')}>BLOCK CHAIN</ToggleButton>
+          {toggle === 'web app' ?
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP</ToggleButton>
             :
-            <ToggleButton value="block chain" onClick={() => setToggle('block chain')}>BLOCK CHAIN</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP</ToggleButton>
           }
           <Divider/>
           {toggle === 'frontend' ?
