@@ -57,9 +57,9 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         },
         {
-          name: "MySQL",
+          name: "MongoDB",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+            "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
         },
       ],
     },
