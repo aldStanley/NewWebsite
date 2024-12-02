@@ -116,31 +116,31 @@ export const Bio = {
       img: "https://ik.imagekit.io/v2onc6i6hiu/manufacturers/logos/FPC-USA_StackedLogo.png",
       role: "Software Engineer Intern",
       company: "Formosa Plastics Corporation",
-      date: "May 2023 - June 2023 ",
-      desc: "•	Devised software-based algorithms to quantify effects of 12 major variables including temperature and chemical concentration on polypropylene polymerization\n•	Applied Python programming skills, leveraging Pandas and Seaborn to conduct in-depth data analysis on extensive datasets, each containing over 140,000 rows\n•	Proposed innovative software solutions designed to increase polypropylene production process by 5% and enhance product quality based on data-derived insights .",
+      date: "Jun 2024 – Aug 2024 ",
+      desc: "• Improved barcode generation efficiency by 24% by developing software to autofill required grade information
+            • Implemented locks to ensure mutual exclusion during database updates and module operations, preventing concurrency
+                issues and ensuring accurate data retrieval
+            • Optimized extraction of product grade by constructing algorithm to filter and compensate for irrelevant system message",
       skills: [
-        "Python",
-        "Machine Learning"
+        "PI System",
       ],
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "Research Assistant",
-      company: "the University of Texas at Austin",
-      date: "September 2022 - December 2022 ",
-      desc: "•	Trained ML model to label, track, and extract data of ambulation and interactions between 6 rats from 2 videos\n•	Identified a variable set that yielded a 60% improvement in the efficiency of the model training process \n•	Obtained information such as instantaneous velocity, distance traveled, and number of times of contact at each second from data collected from labeled videos ",
+      img: "https://ik.imagekit.io/v2onc6i6hiu/manufacturers/logos/FPC-USA_StackedLogo.png",
+      role: "Data Science Intern",
+      company: "Formosa Plastics Corporation",
+      date: "May 2022 - June 2022, May 2023 - June 2023",
+      desc: "• Learned and gained hands-on experience with Distributed Control Systems in industrial production processes
+                • Increased 3% production quality by proposing solution based on identified variables of major impact on the inconsistency of
+                resin polymerization with Advanced Process Control system
+                • Developed software module to automatically extract and pre-process targeted data
+                • Proposed solutions on how to enhance quality of resin pellet by coordinating with various departments ",
       skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Docker",
-        "AWS",
-        "MongoDB",
+        "MS Excel",
+        "Data analysis",
+        "Python",
+        "Pandas",
       ],
     },
     
