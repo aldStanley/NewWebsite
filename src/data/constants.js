@@ -152,7 +152,7 @@ export const Bio = {
       img: "https://images.squarespace-cdn.com/content/v1/5db8d87938c9e547f96fda7e/0d6e50c5-61b4-4370-9adf-8ce7696578b4/longhorns.png",
       school: "the University of Texas at Austin",
       date: "Sep 2021 - Sep 2025",
-      grade: "3.596 GPA",
+      grade: "3.64 / 4.0 GPA",
       desc: "I am currently pursuing a Bachelor's degree in Electrical and Computer Engineering at the University of Texas at Austin. I have completed 5 semesters and have a GPA of 3.596. I have taken courses in Data Structures, Algorithms, Software Design and Implementation, and Object-Oriented Programming.",
       degree: "Bachelor of Science, Electrical and Computer Engineering",
     },
@@ -162,6 +162,35 @@ export const Bio = {
  
     {
       id: 0,
+      title: "Flight Software Testing System – Texas Spacecraft Laboratory ",
+      date: "Sep 2024 – Present ",
+      description: "• Designed and implemented software testing system for satellite hardware in a project affiliated with NASA and SpaceX,
+                        enabling efficient and reliable hardware validation.
+                    • Enhanced system performance by implementing caching mechanism to reduce redundant data access and optimize
+                        processing speed
+                    • Facilitated data analysis and visualization by developing real-time data export feature, updating CSV files at one-second
+                        intervals",
+      image: "",
+      tags:[ "Python", "System Design"],
+      category: "",
+      github: ""
+    },
+    {
+      id: 1,
+      title: "PINTOS Operating System Lab",
+      date: "Sep 2024 – Present ",
+      description: "• Built user program functionality including system calls, argument passing, and synchronization using locks and semaphores.
+                    • Developed supplemental page table, frame table, and swap table and improved efficiency through paging and dynamic stack
+                    growth
+                    • Enhanced file system with indexed files, subdirectories, and buffer caching while ensuring data persistence and reliable
+                    concurrent access through synchronization",
+      image:"",
+      tags:[ "C", "Assembly],
+      category: "",
+      github: ""
+    },
+    {
+      id: 2,
       title: "E-commerce Web App",
       date: "Oct 2023 -Jan 2024 ",
       description: "•	Developed intuitive UI that allows user to browse products by category or by searching using Next.js and tailwind CSS •	Integrated Yarn library to store cart items locally, reducing database load to optimize database performance •	Integrated Stripe API to implement robust and secure checkout and payment transactions",
@@ -171,7 +200,7 @@ export const Bio = {
       github: "https://github.com/aldStanley/Ecommerce/tree/main"
     },
     {
-      id: 1,
+      id: 3,
       title: "Personal Portfolio",
       date: "Nov 2023 - Jan 2024",
       description:
@@ -188,7 +217,7 @@ export const Bio = {
       github: "https://github.com/aldStanley/NewWebsite",
     },
     {
-      id: 2,
+      id: 4,
       title: "Mastermind Game",
       date: "Oct 2023 - Jan 2024",
       description:
