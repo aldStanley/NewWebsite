@@ -117,10 +117,7 @@ export const Bio = {
       role: "Software Engineer Intern",
       company: "Formosa Plastics Corporation",
       date: "Jun 2024 – Aug 2024 ",
-      desc: "• Improved barcode generation efficiency by 24% by developing software to autofill required grade information
-            • Implemented locks to ensure mutual exclusion during database updates and module operations, preventing concurrency
-                issues and ensuring accurate data retrieval
-            • Optimized extraction of product grade by constructing algorithm to filter and compensate for irrelevant system message",
+      desc: "• Improved barcode generation efficiency by 24% by developing software to autofill required grade information • Implemented locks to ensure mutual exclusion during database updates and module operations, preventing concurrency issues and ensuring accurate data retrieval • Optimized extraction of product grade by constructing algorithm to filter and compensate for irrelevant system message",
       skills: [
         "PI System",
       ],
@@ -131,11 +128,7 @@ export const Bio = {
       role: "Data Science Intern",
       company: "Formosa Plastics Corporation",
       date: "May 2022 - June 2022, May 2023 - June 2023",
-      desc: "• Learned and gained hands-on experience with Distributed Control Systems in industrial production processes
-                • Increased 3% production quality by proposing solution based on identified variables of major impact on the inconsistency of
-                resin polymerization with Advanced Process Control system
-                • Developed software module to automatically extract and pre-process targeted data
-                • Proposed solutions on how to enhance quality of resin pellet by coordinating with various departments ",
+      desc: "• Learned and gained hands-on experience with Distributed Control Systems in industrial production processes • Increased 3% production quality by proposing solution based on identified variables of major impact on the inconsistency of resin polymerization with Advanced Process Control system • Developed software module to automatically extract and pre-process targeted data • Proposed solutions on how to enhance quality of resin pellet by coordinating with various departments ",
       skills: [
         "MS Excel",
         "Data analysis",
@@ -164,12 +157,7 @@ export const Bio = {
       id: 0,
       title: "Flight Software Testing System – Texas Spacecraft Laboratory ",
       date: "Sep 2024 – Present ",
-      description: "• Designed and implemented software testing system for satellite hardware in a project affiliated with NASA and SpaceX,
-                        enabling efficient and reliable hardware validation.
-                    • Enhanced system performance by implementing caching mechanism to reduce redundant data access and optimize
-                        processing speed
-                    • Facilitated data analysis and visualization by developing real-time data export feature, updating CSV files at one-second
-                        intervals",
+      description: "• Designed and implemented software testing system for satellite hardware in a project affiliated with NASA and SpaceX, enabling efficient and reliable hardware validation. • Enhanced system performance by implementing caching mechanism to reduce redundant data access and optimize processing speed • Facilitated data analysis and visualization by developing real-time data export feature, updating CSV files at one-second intervals",
       image: "",
       tags:[ "Python", "System Design"],
       category: "",
@@ -179,13 +167,9 @@ export const Bio = {
       id: 1,
       title: "PINTOS Operating System Lab",
       date: "Sep 2024 – Present ",
-      description: "• Built user program functionality including system calls, argument passing, and synchronization using locks and semaphores.
-                    • Developed supplemental page table, frame table, and swap table and improved efficiency through paging and dynamic stack
-                    growth
-                    • Enhanced file system with indexed files, subdirectories, and buffer caching while ensuring data persistence and reliable
-                    concurrent access through synchronization",
+      description: "• Built user program functionality including system calls, argument passing, and synchronization using locks and semaphores. • Developed supplemental page table, frame table, and swap table and improved efficiency through paging and dynamic stack growth • Enhanced file system with indexed files, subdirectories, and buffer caching while ensuring data persistence and reliable concurrent access through synchronization",
       image:"",
-      tags:[ "C", "Assembly],
+      tags:[ "C", "Assembly"],
       category: "",
       github: ""
     },
